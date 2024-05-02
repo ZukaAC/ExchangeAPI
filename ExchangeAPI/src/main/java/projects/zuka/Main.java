@@ -12,7 +12,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EntityScan("projects.zuka.persistence.model")
 public class Main {
     public static void main(String[] args) {
-        Connection.getIp();
         SpringApplication.run(Main.class, args);
     }
 }
